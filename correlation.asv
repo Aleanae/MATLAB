@@ -1,0 +1,10 @@
+plot(AAD,"_", ...
+    "markersize",25)
+hold on
+plot([1 1], ylim, '--k')
+ylabel("Energy /Ha")
+xlabel("State")
+legend("Vertical Excitation","Optimised Geometry",'location','southeast')
+xticks([1 2 3])
+xticklabels(["GS","S1","S2"])
+xlim([0.5 3.5])
